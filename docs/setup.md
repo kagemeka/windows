@@ -30,3 +30,25 @@ python3 get-pip.py
 ```powershell 
 Set-Alias -Name "pip" -Value "python3 -m pip"
 ```
+
+
+
+
+# WSL2 
+- https://docs.microsoft.com/en-us/windows/wsl/install-win10
+- use multiple ubuntu terminal by clicking icon with pressing `shift`
+  - ref: https://askubuntu.com/questions/1074283/multiple-terminal-windows-in-windows-ubuntu
+
+
+## docker
+- install docker inside ubuntu on WSL2
+- https://docs.docker.com/engine/install/ubuntu/
+- start docker 
+```sh
+$ service start docker
+```
+
+
+
+## docker desktop for windows 
+- https://docs.docker.com/desktop/windows/install/
